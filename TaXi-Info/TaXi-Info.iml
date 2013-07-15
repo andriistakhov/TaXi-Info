@@ -15,6 +15,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="com.github.rchugunov:android-support-v4:r13-SNAPSHOT" level="project" />
   </component>
 </module>
 

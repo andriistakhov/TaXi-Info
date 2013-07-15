@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/taxi_service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/taxi_call"
+
+        />
+
+    <TextView
+        android:id="@+id/taxi_service_base_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/taxi_call"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="555-555"
+        android:layout_below="@+id/taxi_service_name"
+
+        />
+
+    <ImageView
+        android:id="@+id/taxi_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@android:drawable/sym_action_call"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@id/taxi_service_name"
+        android:layout_alignBottom="@id/taxi_service_base_number"
+        />
+
+</RelativeLayout>
