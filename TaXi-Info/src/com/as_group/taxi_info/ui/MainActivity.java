@@ -1,6 +1,5 @@
 package com.as_group.taxi_info.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentActivity;
@@ -10,7 +9,6 @@ import android.view.View;
 import android.widget.ListView;
 
 import com.as_group.taxi_info.R;
-import com.as_group.taxi_info.TaxiInfoService;
 import com.as_group.taxi_info.ui.fragments.NavigationListFragment;
 import com.as_group.taxi_info.ui.fragments.TaxiServiceFragment;
 
@@ -64,6 +62,5 @@ public class MainActivity extends FragmentActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        startService(new Intent(this, TaxiInfoService.class));
     }
 }

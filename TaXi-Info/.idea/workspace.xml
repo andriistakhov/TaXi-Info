@@ -22,6 +22,9 @@
       </GlobalState>
     </option>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" name="Default" comment="" />
     <ignored path="TaXi-Info.iws" />
@@ -35,10 +38,18 @@
     <file path="$PROJECT_DIR$/gen/com/as_group/taxi_info/BuildConfig.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1373059056090" ignored="false" />
     <file path="/MainActivity.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1373054501284" ignored="false" />
     <file path="/DBTest.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1373259648447" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1373058236283" ignored="false" />
-    <file path="/fragment.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1373871446141" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/as_group/taxi_info/db/SQLiteHelper.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1373259441713" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374467020624" ignored="false" />
+    <file path="/fragment.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374234491809" ignored="false" />
     <file path="/SQLiteHelper.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1373259401170" ignored="false" />
+    <file path="/TaxiInfoService.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374467105876" ignored="false" />
+    <file path="/ServerInfo.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374235395479" ignored="false" />
+    <file path="/ServiceInfo.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374244096082" ignored="false" />
+    <file path="/TaxiService.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374329771032" ignored="false" />
+    <file path="/Constants.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374330356018" ignored="false" />
+    <file path="/JsonContants.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374466084744" ignored="false" />
+    <file path="/NavigationListFragment.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374466876762" ignored="false" />
+    <file path="/IJsonParser.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374469504844" ignored="false" />
+    <file path="/BaseDBPopulate.java" changelist="cd7f3e4e-9cf9-4c58-a1b2-fc818d2f9519" time="1374469582059" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +100,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/as_group/taxi_info/service/TaxiInfoService.java" line="141" class="com.as_group.taxi_info.service.TaxiInfoService" package="com.as_group.taxi_info.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/as_group/taxi_info/service/TaxiInfoService.java" line="77" class="com.as_group.taxi_info.service.TaxiInfoService" package="com.as_group.taxi_info.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -100,30 +143,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivityTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/MainActivityTest.java">
+      <file leaf-file-name="TaxiInfoService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/service/TaxiInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0">
+            <state line="140" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationMockapTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/ApplicationMockapTest.java">
+      <file leaf-file-name="IJsonDBUpdate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/data/IJsonDBUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="39" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BaseDBPopulate.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/data/BaseDBPopulate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="16" selection-start="409" selection-end="409" vertical-scroll-proportion="0.37067544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicHttpParams.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Install/Develop/android-sdk/platforms/android-17/android.jar!/org/apache/http/params/BasicHttpParams.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="16" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractHttpParams.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Install/Develop/android-sdk/platforms/android-17/android.jar!/org/apache/http/params/AbstractHttpParams.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="14" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="206" selection-end="218" vertical-scroll-proportion="0.03968254">
+            <state line="63" column="25" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavigationListFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/fragments/NavigationListFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="14" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,28 +209,25 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+            <state line="10" column="62" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi-InforTest/AndroidManifest.xml">
+      <file leaf-file-name="TaxiServiceFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/fragments/TaxiServiceFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+            <state line="75" column="36" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/utils/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="37" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+            <state line="11" column="116" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,21 +243,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/MainActivity.java" />
-        <option value="$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/MainActivityTest.java" />
-        <option value="$PROJECT_DIR$/Taxi-InforTest/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/DBTest.java" />
         <option value="$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/ApplicationMockapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/service/ServerInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/service/IServerInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/service/ServiceInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/service/TaxiService.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/utils/JsonContants.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/ui/fragments/NavigationListFragment.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/service/TaxiInfoService.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/data/IJsonParser.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/data/IJsonDBUpadate.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/data/IJsonDBUpdate.java" />
+        <option value="$PROJECT_DIR$/src/com/as_group/taxi_info/data/BaseDBPopulate.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="31" />
-    <option name="width" value="1231" />
-    <option name="height" value="760" />
+    <option name="x" value="53" />
+    <option name="y" value="22" />
+    <option name="width" value="1227" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,6 +300,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,24 +329,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Taxi-InforTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TaXi-Info" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TaXi-Info" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Taxi-InforTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -284,37 +350,100 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaXi-Info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaXi-Info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaXi-Info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaXi-Info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxi_info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Work/branch" />
+    <property name="DEBUGGABLE_DEVICE" value="192.168.56.101:5555" />
+    <property name="DEBUGGABLE_PROCESS" value="com.as_group.taxi_info" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.as_group.taxi_info.service" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.TaXi-Info">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -349,19 +478,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -387,6 +503,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -514,31 +643,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="31" width="1231" height="760" extended-state="0" />
-    <editor active="false" />
+    <frame x="53" y="22" width="1227" height="778" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978903" sideWeight="0.6703125" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2599492" sideWeight="0.6011396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -608,127 +737,105 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/MainActivityTest.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0">
+        <state line="9" column="37" selection-start="366" selection-end="366" vertical-scroll-proportion="0.24064171" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/service/IServerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="37" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/service/ServiceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="48" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/service/TaxiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="40" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/db/SQLiteContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/utils/JsonContants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="42" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/service/TaxiInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/ApplicationMockapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/data/IJsonDBUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="39" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Install/Develop/android-sdk/platforms/android-17/android.jar!/org/apache/http/params/BasicHttpParams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Install/Develop/android-sdk/platforms/android-17/android.jar!/org/apache/http/params/AbstractHttpParams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="206" selection-end="218" vertical-scroll-proportion="0.0">
+        <state line="63" column="25" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/fragments/NavigationListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="14" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+        <state line="10" column="62" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi-InforTest/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/fragments/TaxiServiceFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+        <state line="75" column="36" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+        <state line="11" column="116" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/MainActivityTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/data/BaseDBPopulate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="57" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/MainActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi-InforTest/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi-InforTest/src/com/as_group/taxi_info/ApplicationMockapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/as_group/taxi_info/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="206" selection-end="218" vertical-scroll-proportion="0.03968254">
+        <state line="15" column="16" selection-start="409" selection-end="409" vertical-scroll-proportion="0.37067544">
           <folding />
         </state>
       </provider>
